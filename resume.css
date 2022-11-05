@@ -85,9 +85,9 @@ a#pdf:hover { background: #222; }
     position: fixed;
     top: 0;
     left: 0;
+    width: 0%;
     height: 8px;
     background: linear-gradient(to right, #ff5f6d, #ffc371);
-    width: 0%;
-    z-index: 100;
+    z-index: 10000;
     transition: width 0.2s ease-out;
 }
