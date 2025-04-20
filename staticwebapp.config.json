@@ -5,6 +5,12 @@
       "methods": [
         "get"
       ]
+    },
+    {
+      "route": "/reusme",
+      "methods": [
+        "get"
+      ]
     }
   ]
 }
