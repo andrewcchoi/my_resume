@@ -5,7 +5,10 @@
   "contact": {
     "email": "andrewchoi@andrewchoi.net"
   },
-  "summary": "I have spearheaded the implementation of strategic, operational, and financial metrics—including KPIs and advanced business intelligence systems—to drive measurable performance improvements and data-driven decision-making. By integrating robust data analytics and data science methodologies with predictive modeling, statistical analysis, and machine learning algorithms, I have delivered transformative insights that optimize both technical operations and financial outcomes. I’ve established standardized ETL processes, rigorous data cleaning protocols, and clear data governance policies to ensure data consistency, security, and scalability across cross-functional teams. Leveraging technologies such as SQL, Python, and building dynamic dashboards and visualizations with tools like Tableau and Power BI, I have enabled stakeholders to harness actionable intelligence that supports complex forecasting, segmentation, and statistical modeling initiatives. Drawing on extensive experience across industries including health care, engineering, public transit, insurance, finance, payroll, and security, I bring a broad perspective and versatile expertise to every challenge. My proficiency extends from deploying artificial intelligence to leading teams in developing cutting-edge data-driven solutions. This holistic blend of skills in data analytics, data science, and AI empowers me to transform raw data into strategic assets that drive innovation and sustainable business growth. ",
+  "summary": [
+    "I have spearheaded the implementation of strategic, operational, and financial metrics—including KPIs and advanced business intelligence systems—to drive measurable performance improvements and data-driven decision-making. By integrating robust data analytics and data science methodologies with predictive modeling, statistical analysis, and machine learning algorithms, I have delivered transformative insights that optimize both technical operations and financial outcomes. ",
+    "I’ve established standardized ETL processes, rigorous data cleaning protocols, and clear data governance policies to ensure data consistency, security, and scalability across cross-functional teams. Leveraging technologies such as SQL, Python, and building dynamic dashboards and visualizations with tools like Tableau and Power BI, I have enabled stakeholders to harness actionable intelligence that supports complex forecasting, segmentation, and statistical modeling initiatives. ",
+    "Drawing on extensive experience across industries including health care, engineering, public transit, insurance, finance, payroll, and security, I bring a broad perspective and versatile expertise to every challenge. My proficiency extends from deploying artificial intelligence to leading teams in developing cutting-edge data-driven solutions. This holistic blend of skills in data analytics, data science, and AI empowers me to transform raw data into strategic assets that drive innovation and sustainable business growth. "],
   "base_url": "www.andrewchoi.net",
   "social_links": [
     {
@@ -127,7 +130,7 @@
       ]
     }
   ],
-  "mililtary_experience": [
+  "military_experience": [
     {
       "organization": "United States Marine Corps",
       "rank": "Sergeant",
@@ -151,12 +154,42 @@
     {
       "institution": "California State University, Long Beach (CSULB)",
       "location": "Long Beach, California",
-      "degrees": ["Bachelor of Science in FinanceM Management"]
+      "degrees": ["Bachelor of Science in Finance Management"]
     }
   ],
   "skills": [
     {
-      "name": "Python",
+      "name": "Azure",
+      "proficiency": 80,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "Excel",
+      "proficiency": 100,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "MSSQL",
+      "proficiency": 90,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "MySQL",
+      "proficiency": 80,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "PostgreSQL",
+      "proficiency": 90,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "Power Apps",
+      "proficiency": 80,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "Power Automate",
       "proficiency": 90,
       "proficiency_label": "Proficiency Level"
     },
@@ -166,22 +199,17 @@
       "proficiency_label": "Proficiency Level"
     },
     {
-      "name": "MSSQL",
-      "proficiency": 85,
+      "name": "Python",
+      "proficiency": 90,
       "proficiency_label": "Proficiency Level"
     },
     {
-      "name": "PostgreSQL",
-      "proficiency": 80,
+      "name": "R",
+      "proficiency": 70,
       "proficiency_label": "Proficiency Level"
     },
     {
-      "name": "MySQL",
-      "proficiency": 75,
-      "proficiency_label": "Proficiency Level"
-    },
-    {
-      "name": "Teradata",
+      "name": "Salesforce",
       "proficiency": 70,
       "proficiency_label": "Proficiency Level"
     },
@@ -191,38 +219,8 @@
       "proficiency_label": "Proficiency Level"
     },
     {
-      "name": "Azure",
-      "proficiency": 90,
-      "proficiency_label": "Proficiency Level"
-    },
-    {
-      "name": "Power Automate",
-      "proficiency": 95,
-      "proficiency_label": "Proficiency Level"
-    },
-    {
-      "name": "Power Apps",
-      "proficiency": 90,
-      "proficiency_label": "Proficiency Level"
-    },
-    {
-      "name": "Salesforce",
+      "name": "Teradata",
       "proficiency": 70,
-      "proficiency_label": "Proficiency Level"
-    },
-    {
-      "name": "Git",
-      "proficiency": 80,
-      "proficiency_label": "Proficiency Level"
-    },
-    {
-      "name": "R",
-      "proficiency": 70,
-      "proficiency_label": "Proficiency Level"
-    },
-    {
-      "name": "Excel",
-      "proficiency": 100,
       "proficiency_label": "Proficiency Level"
     }
   ]
