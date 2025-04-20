@@ -2,9 +2,10 @@
 static website of my resume
 
 # requirements
-requirements text file in template folder. use command to copy requirements to root folder.
-```cmd
-cp template/requirements_template.txt requirements.txt
+requirements to run script.
+```requirements.txt
+Jinja2==3.1.4
+MarkupSafe==3.0.2
 ```
 
 # source 
