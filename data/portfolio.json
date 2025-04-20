@@ -1,224 +1,229 @@
 {
-  "name": "Your Name",
-  "label": "Optional Label",
-  "image_path": "img/default-image.png",
+  "name": "Andrew C. Choi",
+  "label": "Data Manager * Python Developer * Power BI * Certified Data Scientist",
+  "image_path": "static/img/default-image.png",
   "contact": {
-    "email": "FirstLast@Sample.com",
-    "phone": "123-456-7890",
-    "location": "City, State, Country"
+    "email": "andrewchoi@andrewchoi.net"
   },
-  "summary": "A short summary of who you are, your background, experience, and interests to give visitors a quick introduction to you.",
-  "base_url": "127.0.0.1:5500",
+  "summary": "I have spearheaded the implementation of strategic, operational, and financial metrics—including KPIs and advanced business intelligence systems—to drive measurable performance improvements and data-driven decision-making. By integrating robust data analytics and data science methodologies with predictive modeling, statistical analysis, and machine learning algorithms, I have delivered transformative insights that optimize both technical operations and financial outcomes. I’ve established standardized ETL processes, rigorous data cleaning protocols, and clear data governance policies to ensure data consistency, security, and scalability across cross-functional teams. Leveraging technologies such as SQL, Python, and building dynamic dashboards and visualizations with tools like Tableau and Power BI, I have enabled stakeholders to harness actionable intelligence that supports complex forecasting, segmentation, and statistical modeling initiatives. Drawing on extensive experience across industries including health care, engineering, public transit, insurance, finance, payroll, and security, I bring a broad perspective and versatile expertise to every challenge. My proficiency extends from deploying artificial intelligence to leading teams in developing cutting-edge data-driven solutions. This holistic blend of skills in data analytics, data science, and AI empowers me to transform raw data into strategic assets that drive innovation and sustainable business growth. ",
+  "base_url": "www.andrewchoi.net",
   "social_links": [
     {
       "label": "Personal Website",
-      "url": "https://sample.com",
-      "svg_path": "img/globe.svg"
+      "url": "https://www.andrewchoi.net",
+      "svg_path": "static/img/globe.svg"
     },
     {
-      "label": "First Social",
-      "url": "https://sample.com",
-      "svg_path": "img/linkedin.svg"
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/choiac/",
+      "svg_path": "static/img/linkedin.svg"
     },
     {
-      "label": "Second Social",
-      "url": "https://sample.com",
-      "svg_path": "img/github.svg"
+      "label": "Github",
+      "url": "https://githubd.com/andrewcchoi",
+      "svg_path": "static/img/github.svg"
     }
   ],
   "work_experience": [
     {
-      "company": "Latest Job",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
+      "company": "Safran Passenger Innovations",
+      "start_date": "May 2022",
       "end_date": "Present",
-      "summary": "Short summary about present job and what the position entails",
-      "highlights": [
-        "First Duty of Current Job",
-        "Second Duty of Current Job",
-        "Third Duty of Current Job"
+      "job_titles": [
+        "Senior Power Platform Analyst",
+        "Senior Power BI Analyst"
       ]
     },
     {
-      "company": "Previous Job",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous job and what that position entailed",
-      "highlights": [
-        "First Duty of Previous Job",
-        "Second Duty of Previous Job",
-        "Third Duty of Previous Job"
+      "company": "Inter-Con Security Systems, Inc.",
+      "start_date": "Nov 2020",
+      "end_date": "Apr 2022",
+      "job_titles": [
+        "Senior Manager, Risk and Data Analytics"
+      ]
+    },
+    {
+      "company": "City of Culver City",
+      "start_date": "Feb 2020",
+      "end_date": "Nov 2020",
+      "job_titles": [
+        "Management Analyst"
+      ]
+    },
+    {
+      "company": "Automobile Club of Southern California-AAA",
+      "start_date": "Aug 2019",
+      "end_date": "Feb 2020",
+      "job_titles": [
+        "Senior Operations Analyst"
+      ]
+    },
+    {
+      "company": "Long Beach Transit",
+      "start_date": "Sep 2015",
+      "end_date": "Aug 2019",
+      "job_titles": [
+        "Maintenance Operations Planner",
+        "Maintenance Administrator"
+      ]
+    },
+    {
+      "company": "Jacobs Engineering Group",
+      "start_date": "Jun 2014",
+      "end_date": "Sep 2015",
+      "job_titles": [
+        "Project Controls"
+      ]
+    },
+    {
+      "company": "UnitedHealth Group",
+      "start_date": "Oct 2011",
+      "end_date": "Jun 2014",
+      "job_titles": [
+        "Associate Compliance Analyst",
+        "Senior Compliance Coordinator"
       ]
     }
   ],
-  "projects": [
+  "certificates": [
     {
-      "title": "My First Project",
-      "summary": "Short summary about my first project",
-      "url": "https://sample.com",
-      "highlights": [
-        "First Highlight of Project One",
-        "Second Highlight of Project One",
-        "Third Highlight of Project One"
-      ],
+      "badge": "Azure Data Scientist",
+      "url": "https://www.credly.com/badges/bf2b15ca-93b0-486d-a804-3e383bcf291f",
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=1",
-          "caption": "Image Caption 1"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=2",
-          "caption": "Image Caption 2"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=3",
-          "caption": "Image Caption 3"
+          "img_path": "https://images.credly.com/size/680x680/images/5c8fca38-b0d2-49e5-9ad2-f3f8e79b327f/azure-data-scientist-associate-600x600.png",
+          "caption": "Microsoft certification Azure Data Scientist Associate badge"
         }
       ]
     },
     {
-      "title": "My Second Project",
-      "summary": "Short summary about my second project",
-      "url": "https://sample.com",
-      "highlights": [
-        "First Highlight of Project Two",
-        "Second Highlight of Project Two",
-        "Third Highlight of Project Two"
-      ],
+      "badge": "Power Platform App Maker",
+      "url": "https://www.credly.com/badges/8a32212a-c0b2-45fc-8de4-c124e382a276/public_url",
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=4",
-          "caption": "Image Caption 4"
-        },
+          "img_path": "https://images.credly.com/size/340x340/images/60030167-ab95-46aa-8391-c069102e5602/power-platform-app-maker-600x600.png",
+          "caption": "Microsofoft certification Power Platform App Maker Associate badge"
+        }
+      ]
+    },
+    {
+      "badge": "Azure Data Fundamentals",
+      "url": "https://www.credly.com/badges/27ac62a2-b37e-456b-907f-6b2909e298ed",
+      "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=5",
-          "caption": "Image Caption 5"
-        },
+          "img_path": "https://images.credly.com/size/680x680/images/70eb1e3f-d4de-4377-a062-b20fb29594ea/azure-data-fundamentals-600x600.png",
+          "caption": "Microsoft certification badge Azure Data Scientist Associate"
+        }
+      ]
+    },
+    {
+      "badge": "Azure Fundamentals",
+      "url": "https://www.credly.com/badges/bf2b15ca-93b0-486d-a804-3e383bcf291f",
+      "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=6",
-          "caption": "Image Caption 6"
+          "img_path": "https://images.credly.com/size/340x340/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png",
+          "caption": "Microsoft certification Axure Fundamentals badge"
         }
       ]
     }
   ],
-  "volunteer_experience": [
+  "mililtary_experience": [
     {
-      "organization": "Latest Organization",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
-      "end_date": "Present",
-      "summary": "Short summary about present volunteer work",
+      "organization": "United States Marine Corps",
+      "rank": "Sergeant",
+      "mos": "2311 - Ammunition Technician",
+      "summary": "Semper Fidelis",
       "highlights": [
-        "First Duty of Current Organization",
-        "Second Duty of Current Organization",
-        "Third Duty of Current Organization"
-      ]
-    },
-    {
-      "organization": "Previous Organization",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous volunteer work",
-      "highlights": [
-        "First Duty of Previous Organization",
-        "Second Duty of Previous Organization",
-        "Third Duty of Previous Organization"
+        "Honor",
+        "Courage",
+        "Commitment"
       ]
     }
   ],
   "education": [
     {
-      "institution": "Institution One",
-      "location": "Institution One Location",
-      "url": "https://sample.com",
+      "institution": "California State University, Dominguez Hills (CSUDH)",
+      "location": "Carson, California",
       "degrees": [
-        "Master of Science in Computer Science",
-        "Minor in Mathematics"
-      ],
-      "honors": ["Outstanding Student Award", "Dean's List"],
-      "gpa_cumulative": "3.5",
-      "gpa_major": "4.0",
-      "graduation_date": "01/01/2005"
+        "Masters Business Administration (MBA)"
+      ]
     },
     {
-      "institution": "Institution Two",
-      "location": "Institution Two Location",
-      "url": "https://sample.com",
-      "degrees": ["Bachelor of Science in Physics"],
-      "honors": ["Scholarship Recipient"],
-      "gpa_cumulative": "3.2",
-      "gpa_major": "3.9",
-      "graduation_date": "01/01/2000"
+      "institution": "California State University, Long Beach (CSULB)",
+      "location": "Long Beach, California",
+      "degrees": ["Bachelor of Science in FinanceM Management"]
     }
   ],
   "skills": [
     {
-      "name": "My First Skill",
+      "name": "Python",
+      "proficiency": 90,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "Power BI",
       "proficiency": 100,
       "proficiency_label": "Proficiency Level"
     },
     {
-      "name": "My Second Skill",
+      "name": "MSSQL",
+      "proficiency": 85,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "PostgreSQL",
       "proficiency": 80,
       "proficiency_label": "Proficiency Level"
-    }
-  ],
-  "interests": [
-    {
-      "name": "My First Hobby",
-      "summary": "Short summary about my first Hobby",
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=7",
-          "caption": "Image Caption 7"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=8",
-          "caption": "Image Caption 8"
-        }
-      ]
     },
     {
-      "name": "My Second Hobby",
-      "summary": "Short summary about my second hobby",
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=9",
-          "caption": "Image Caption 9"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=10",
-          "caption": "Image Caption 10"
-        }
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
+      "name": "MySQL",
+      "proficiency": 75,
+      "proficiency_label": "Proficiency Level"
     },
     {
-      "language": "American Sign Language",
-      "fluency": "Professional Working Proficiency"
-    }
-  ],
-  "references": [
-    {
-      "name": "Person One",
-      "relation": "Previous Boss",
-      "reference": "Some nice things that Person One said about you, your work ethic, and how you provided value to their team."
+      "name": "Teradata",
+      "proficiency": 70,
+      "proficiency_label": "Proficiency Level"
     },
     {
-      "name": "Person Two",
-      "relation": "Previous Coworker",
-      "reference": "More kind things that Person Two said about you, what it was like working with you, and things you've accomplished."
+      "name": "Tableau",
+      "proficiency": 70,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "Azure",
+      "proficiency": 90,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "Power Automate",
+      "proficiency": 95,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "Power Apps",
+      "proficiency": 90,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "Salesforce",
+      "proficiency": 70,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "Git",
+      "proficiency": 80,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "R",
+      "proficiency": 70,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "Excel",
+      "proficiency": 100,
+      "proficiency_label": "Proficiency Level"
     }
   ]
 }
