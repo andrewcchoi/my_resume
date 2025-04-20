@@ -1,0 +1,227 @@
+{
+  "name": "Andrew C. Choi",
+  "label": "Data Manager * Python Developer * Power BI * Certified Data Scientist",
+  "image_path": "static/img/default-image.gif",
+  "contact": {
+    "email": "andrewchoi@andrewchoi.net"
+  },
+  "summary": [
+    "I have spearheaded the implementation of strategic, operational, and financial metrics—including KPIs and advanced business intelligence systems—to drive measurable performance improvements and data-driven decision-making. By integrating robust data analytics and data science methodologies with predictive modeling, statistical analysis, and machine learning algorithms, I have delivered transformative insights that optimize both technical operations and financial outcomes. ",
+    "I’ve established standardized ETL processes, rigorous data cleaning protocols, and clear data governance policies to ensure data consistency, security, and scalability across cross-functional teams. Leveraging technologies such as SQL, Python, and building dynamic dashboards and visualizations with tools like Tableau and Power BI, I have enabled stakeholders to harness actionable intelligence that supports complex forecasting, segmentation, and statistical modeling initiatives. ",
+    "Drawing on extensive experience across industries including health care, engineering, public transit, insurance, finance, payroll, and security, I bring a broad perspective and versatile expertise to every challenge. My proficiency extends from deploying artificial intelligence to leading teams in developing cutting-edge data-driven solutions. This holistic blend of skills in data analytics, data science, and AI empowers me to transform raw data into strategic assets that drive innovation and sustainable business growth. "],
+  "base_url": "www.andrewchoi.net",
+  "social_links": [
+    {
+      "label": "Personal Website",
+      "url": "https://www.andrewchoi.net",
+      "svg_path": "static/img/globe.svg"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/choiac/",
+      "svg_path": "static/img/linkedin.svg"
+    },
+    {
+      "label": "Github",
+      "url": "https://github.com/andrewcchoi",
+      "svg_path": "static/img/github.svg"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "Safran Passenger Innovations",
+      "start_date": "May 2022",
+      "end_date": "Present",
+      "job_titles": [
+        "Senior Power Platform Analyst",
+        "Senior Power BI Analyst"
+      ]
+    },
+    {
+      "company": "Inter-Con Security Systems, Inc.",
+      "start_date": "Nov 2020",
+      "end_date": "Apr 2022",
+      "job_titles": [
+        "Senior Manager, Risk and Data Analytics"
+      ]
+    },
+    {
+      "company": "City of Culver City",
+      "start_date": "Feb 2020",
+      "end_date": "Nov 2020",
+      "job_titles": [
+        "Management Analyst"
+      ]
+    },
+    {
+      "company": "Automobile Club of Southern California-AAA",
+      "start_date": "Aug 2019",
+      "end_date": "Feb 2020",
+      "job_titles": [
+        "Senior Operations Analyst"
+      ]
+    },
+    {
+      "company": "Long Beach Transit",
+      "start_date": "Sep 2015",
+      "end_date": "Aug 2019",
+      "job_titles": [
+        "Maintenance Operations Planner",
+        "Maintenance Administrator"
+      ]
+    },
+    {
+      "company": "Jacobs Engineering Group",
+      "start_date": "Jun 2014",
+      "end_date": "Sep 2015",
+      "job_titles": [
+        "Project Controls"
+      ]
+    },
+    {
+      "company": "UnitedHealth Group",
+      "start_date": "Oct 2011",
+      "end_date": "Jun 2014",
+      "job_titles": [
+        "Associate Compliance Analyst",
+        "Senior Compliance Coordinator"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "badge": "Azure Data Scientist",
+      "url": "https://www.credly.com/badges/bf2b15ca-93b0-486d-a804-3e383bcf291f",
+      "images": [
+        {
+          "img_path": "https://images.credly.com/size/680x680/images/5c8fca38-b0d2-49e5-9ad2-f3f8e79b327f/azure-data-scientist-associate-600x600.png",
+          "caption": "Microsoft certification Azure Data Scientist Associate badge"
+        }
+      ]
+    },
+    {
+      "badge": "Power Platform App Maker",
+      "url": "https://www.credly.com/badges/8a32212a-c0b2-45fc-8de4-c124e382a276/public_url",
+      "images": [
+        {
+          "img_path": "https://images.credly.com/size/340x340/images/60030167-ab95-46aa-8391-c069102e5602/power-platform-app-maker-600x600.png",
+          "caption": "Microsofoft certification Power Platform App Maker Associate badge"
+        }
+      ]
+    },
+    {
+      "badge": "Azure Data Fundamentals",
+      "url": "https://www.credly.com/badges/27ac62a2-b37e-456b-907f-6b2909e298ed",
+      "images": [
+        {
+          "img_path": "https://images.credly.com/size/680x680/images/70eb1e3f-d4de-4377-a062-b20fb29594ea/azure-data-fundamentals-600x600.png",
+          "caption": "Microsoft certification badge Azure Data Scientist Associate"
+        }
+      ]
+    },
+    {
+      "badge": "Azure Fundamentals",
+      "url": "https://www.credly.com/badges/bf2b15ca-93b0-486d-a804-3e383bcf291f",
+      "images": [
+        {
+          "img_path": "https://images.credly.com/size/340x340/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png",
+          "caption": "Microsoft certification Axure Fundamentals badge"
+        }
+      ]
+    }
+  ],
+  "military_experience": [
+    {
+      "organization": "United States Marine Corps",
+      "rank": "Sergeant",
+      "mos": "2311 - Ammunition Technician",
+      "summary": "Semper Fidelis",
+      "highlights": [
+        "Honor",
+        "Courage",
+        "Commitment"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "California State University, Dominguez Hills (CSUDH)",
+      "location": "Carson, California",
+      "degrees": [
+        "Masters Business Administration (MBA)"
+      ]
+    },
+    {
+      "institution": "California State University, Long Beach (CSULB)",
+      "location": "Long Beach, California",
+      "degrees": ["Bachelor of Science in Finance Management"]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Azure",
+      "proficiency": 80,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "Excel",
+      "proficiency": 100,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "MSSQL",
+      "proficiency": 90,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "MySQL",
+      "proficiency": 80,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "PostgreSQL",
+      "proficiency": 90,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "Power Apps",
+      "proficiency": 80,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "Power Automate",
+      "proficiency": 90,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "Power BI",
+      "proficiency": 100,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "Python",
+      "proficiency": 90,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "R",
+      "proficiency": 70,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "Salesforce",
+      "proficiency": 70,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "Tableau",
+      "proficiency": 70,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "Teradata",
+      "proficiency": 70,
+      "proficiency_label": "Proficiency Level"
+    }
+  ]
+}
