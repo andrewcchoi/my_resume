@@ -101,7 +101,11 @@
                 {% endfor %}
               </ul>
             {% endif %}
-            {% if summary %}<p class="header-summary">{{ summary }}</p>{% endif %}
+            {% if summary %}
+              {% for sentence in summary %}
+                <p class="header-summary">{{ sentence }}</p>
+              {% endfor %}
+            {% endif %}
           </div>
         </div>
       </div>
@@ -178,37 +182,38 @@
               {% endfor %}
             </section>
           {% endif %}
-
-          {% if certificates %}
+          
+          {% if education %}
             <section>
-              <h2 class="section-heading">Certificates</h2>
-              {% for certificate in certificates %}
+              <h2 class="section-heading">Education</h2>
+              {% for edu in education %}
                 <section>
                   <h3>
-                    {% if certificate.url %}
-                      <a href="{{ certificate.url }}" target="_blank">{{ certificate.badge }}</a>
+                    {% if edu.url %}
+                      <a href="{{ edu.url }}" target="_blank">{{ edu.institution }}</a>
                     {% else %}
-                      {{ certificate.badge }}
+                      {{ edu.institution }}
                     {% endif %}
                   </h3>
-                  {% if certificate.summary %}<p>{{ certificate.summary }}</p>{% endif %}
-                  {% if certificate.highlights %}
+                  {% if edu.location %}<p class="section-label">{{ edu.location }}</p>{% endif %}
+                  {% if edu.degrees %}
+                    <h4>Degrees</h4>
                     <ul>
-                      {% for highlight in certificate.highlights %}<li>{{ highlight }}</li>{% endfor %}
+                      {% for deg in edu.degrees %}<li>{{ deg }}</li>{% endfor %}
                     </ul>
                   {% endif %}
-                  {% if certificate.images %}
-                    <div class="gallery main-gallery">
-                      {% for img in certificate.images %}
-                        <figure>
-                          <img width="100"
-                               height="100"
-                               src="{{ img.img_path }}"
-                               alt="{{ img.caption }}">
-                          <figcaption>{{ img.caption }}</figcaption>
-                        </figure>
-                      {% endfor %}
-                    </div>
+                  {% if edu.honors %}
+                    <h4>Honors</h4>
+                    <ul>
+                      {% for hon in edu.honors %}<li>{{ hon }}</li>{% endfor %}
+                    </ul>
+                  {% endif %}
+                  {% if edu.gpa_major or edu.gpa_cumulative or edu.graduation_date %}
+                    <p>
+                      {% if edu.gpa_major %}<span class="block">GPA in Major: {{ edu.gpa_major }}</span>{% endif %}
+                      {% if edu.gpa_cumulative %}<span class="block">Cumulative GPA: {{ edu.gpa_cumulative }}</span>{% endif %}
+                      {% if edu.graduation_date %}<span class="block">Graduation Date: {{ edu.graduation_date }}</span>{% endif %}
+                    </p>
                   {% endif %}
                 </section>
               {% endfor %}
@@ -218,13 +223,13 @@
           {% if military_experience %}
             <section>
               <h2 class="section-heading">Military Experience</h2>
-              {% for service in military_experience %}
+                {% for service in military_experience %}
                 <section>
                   <h3>
                     {% if service.url %}
                       {{ service.position }} at <a href="{{ service.url }}" target="_blank">{{ service.organization }}</a>
                     {% else %}
-                      {{ service.position }} in {{ service.organization }}
+                      {{ service.rank }} in {{ service.organization }}
                     {% endif %}
                   </h3>
                   {% if service.start_date and service.end_date %}
@@ -288,43 +293,6 @@
 
         <!-- Sidebar Section -->
         <aside>
-          {% if education %}
-            <section>
-              <h2 class="section-heading">Education</h2>
-              {% for edu in education %}
-                <section>
-                  <h3>
-                    {% if edu.url %}
-                      <a href="{{ edu.url }}" target="_blank">{{ edu.institution }}</a>
-                    {% else %}
-                      {{ edu.institution }}
-                    {% endif %}
-                  </h3>
-                  {% if edu.location %}<p class="section-label">{{ edu.location }}</p>{% endif %}
-                  {% if edu.degrees %}
-                    <h4>Degrees</h4>
-                    <ul>
-                      {% for deg in edu.degrees %}<li>{{ deg }}</li>{% endfor %}
-                    </ul>
-                  {% endif %}
-                  {% if edu.honors %}
-                    <h4>Honors</h4>
-                    <ul>
-                      {% for hon in edu.honors %}<li>{{ hon }}</li>{% endfor %}
-                    </ul>
-                  {% endif %}
-                  {% if edu.gpa_major or edu.gpa_cumulative or edu.graduation_date %}
-                    <p>
-                      {% if edu.gpa_major %}<span class="block">GPA in Major: {{ edu.gpa_major }}</span>{% endif %}
-                      {% if edu.gpa_cumulative %}<span class="block">Cumulative GPA: {{ edu.gpa_cumulative }}</span>{% endif %}
-                      {% if edu.graduation_date %}<span class="block">Graduation Date: {{ edu.graduation_date }}</span>{% endif %}
-                    </p>
-                  {% endif %}
-                </section>
-              {% endfor %}
-            </section>
-          {% endif %}
-
           {% if skills %}
             <section>
               <h2 class="section-heading">Skills</h2>
@@ -344,6 +312,36 @@
                   </li>
                 {% endfor %}
               </ul>
+            </section>
+          {% endif %}
+
+          {% if certificates %}
+            <section>
+              <h2 class="section-heading">Certificates</h2>
+              {% for certificate in certificates %}
+                <section>
+                  <h3>
+                    {% if certificate.url %}
+                      <a href="{{ certificate.url }}" target="_blank">{{ certificate.badge }}</a>
+                    {% else %}
+                      {{ certificate.badge }}
+                    {% endif %}
+                  </h3>
+                  {% if certificate.summary %}<p>{{ certificate.summary }}</p>{% endif %}
+                  {% if certificate.images %}
+                    <div class="gallery main-gallery">
+                      {% for img in certificate.images %}
+                        <figure>
+                          <img width="100"
+                               height="100"
+                               src="{{ img.img_path }}"
+                               alt="{{ img.caption }}">
+                        </figure>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </section>
+              {% endfor %}
             </section>
           {% endif %}
 
