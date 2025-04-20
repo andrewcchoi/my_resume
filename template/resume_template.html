@@ -16,10 +16,10 @@
     <meta property="og:type" content="website">
 
     <!-- Open Graph Tags: The URL of the page, used to ensure link previews resolve to the correct page. -->
-    <meta property="og:url" content="{{ base_url }}/ target="_blank"resume.html">
+    <meta property="og:url" content="{{ base_url }}/resume.html" target="_blank">
 
     <!-- Open Graph Tags: URL of an image that represents the page. Useful for link previews. -->
-    <meta property="og:image" content="{{ base_url }}/ target="_blank"{{ image_path }}">
+    <meta property="og:image" content="{{ base_url }}/{{ image_path }}" target="_blank">
 
     <!-- Open Graph Tags: Provides an alternative text for the image to improve accessibility. -->
     <meta property="og:image:alt" content="{{ name }} Profile Image">
@@ -99,7 +99,7 @@
                     {% elif job.poisition %}
                       {{ job.position }} at {{ job.company }}
                     {% else %}
-                      {{ job.position }} at {{ job.company }}
+                      {{ job.company }}
                     {% endif %}
                   </h3>
                   {% if job.start_date and job.end_date %}
@@ -204,7 +204,7 @@
                 <section>
                   <h3>
                     {% if service.url %}
-                      {{ service.position }} at <a href="{{ service.url }} target="_blank"">{{ service.organization }}</a>
+                      {{ service.position }} at <a href="{{ service.url }}" target="_blank">{{ service.organization }}</a>
                     {% else %}
                       {{ service.position }} in {{ service.organization }}
                     {% endif %}

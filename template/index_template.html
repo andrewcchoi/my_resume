@@ -90,7 +90,7 @@
               <ul class="inline-list flex-responsive">
                 {% for link in social_links %}
                   <li>
-                    <a href="{{ link.url }} target="_blank""
+                    <a href="{{ link.url }}" target="_blank"
                        rel="noopener noreferrer"
                        aria-label="{{ link.label }}"
                        class="link-with-icon">
@@ -222,7 +222,7 @@
                 <section>
                   <h3>
                     {% if service.url %}
-                      {{ service.position }} at <a href="{{ service.url }} target="_blank"">{{ service.organization }}</a>
+                      {{ service.position }} at <a href="{{ service.url }}" target="_blank">{{ service.organization }}</a>
                     {% else %}
                       {{ service.position }} in {{ service.organization }}
                     {% endif %}
@@ -249,7 +249,7 @@
                 <section>
                   <h3>
                     {% if vol.url %}
-                      {{ vol.position }} at <a href="{{ vol.url }} target="_blank"">{{ vol.organization }}</a>
+                      {{ vol.position }} at <a href="{{ vol.url }}" target="_blank">{{ vol.organization }}</a>
                     {% else %}
                       {{ vol.position }} at {{ vol.organization }}
                     {% endif %}
@@ -295,7 +295,7 @@
                 <section>
                   <h3>
                     {% if edu.url %}
-                      <a href="{{ edu.url }} target="_blank"">{{ edu.institution }}</a>
+                      <a href="{{ edu.url }}" target="_blank">{{ edu.institution }}</a>
                     {% else %}
                       {{ edu.institution }}
                     {% endif %}
