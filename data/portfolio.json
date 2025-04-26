@@ -33,6 +33,7 @@
       "start_date": "May 2022",
       "end_date": "Present",
       "job_titles": [
+        "Staff Power Platform Analyst",
         "Senior Power Platform Analyst",
         "Senior Power BI Analyst"
       ]
@@ -154,74 +155,253 @@
     {
       "institution": "California State University, Long Beach (CSULB)",
       "location": "Long Beach, California",
-      "degrees": ["Bachelor of Science in Finance Management"]
+      "degrees": [
+        "Bachelor of Science in Finance Management"
+      ]
     }
   ],
   "skills": [
     {
       "name": "Azure",
       "proficiency": 80,
-      "proficiency_label": "Proficiency Level"
+      "proficiency_label": "Proficiency Level - 80%"
     },
     {
       "name": "Excel",
       "proficiency": 100,
-      "proficiency_label": "Proficiency Level"
+      "proficiency_label": "Proficiency Level - 100%"
     },
     {
       "name": "MSSQL",
       "proficiency": 90,
-      "proficiency_label": "Proficiency Level"
+      "proficiency_label": "Proficiency Level - 90%"
     },
     {
       "name": "MySQL",
       "proficiency": 80,
-      "proficiency_label": "Proficiency Level"
+      "proficiency_label": "Proficiency Level - 80%"
     },
     {
       "name": "PostgreSQL",
       "proficiency": 90,
-      "proficiency_label": "Proficiency Level"
+      "proficiency_label": "Proficiency Level - 90%"
     },
     {
       "name": "Power Apps",
       "proficiency": 80,
-      "proficiency_label": "Proficiency Level"
+      "proficiency_label": "Proficiency Level - 80%"
     },
     {
       "name": "Power Automate",
       "proficiency": 90,
-      "proficiency_label": "Proficiency Level"
+      "proficiency_label": "Proficiency Level - 90%"
     },
     {
       "name": "Power BI",
       "proficiency": 100,
-      "proficiency_label": "Proficiency Level"
+      "proficiency_label": "Proficiency Level - 100%"
     },
     {
       "name": "Python",
       "proficiency": 90,
-      "proficiency_label": "Proficiency Level"
+      "proficiency_label": "Proficiency Level - 90%"
     },
     {
       "name": "R",
       "proficiency": 70,
-      "proficiency_label": "Proficiency Level"
+      "proficiency_label": "Proficiency Level - 70%"
     },
     {
       "name": "Salesforce",
-      "proficiency": 70,
-      "proficiency_label": "Proficiency Level"
+      "proficiency": 60,
+      "proficiency_label": "Proficiency Level - 60%"
     },
     {
       "name": "Tableau",
       "proficiency": 70,
-      "proficiency_label": "Proficiency Level"
+      "proficiency_label": "Proficiency Level - 70%"
     },
     {
       "name": "Teradata",
       "proficiency": 70,
-      "proficiency_label": "Proficiency Level"
+      "proficiency_label": "Proficiency Level - 70%"
+    }
+  ], 
+  "mindfulness": [
+    {
+      "title": "loving kindness meditation",
+      "gathas": [
+        "May I be safe and protected from inener and outer harm, may I be happy, may I be healthy, may I live with ease.",
+        "May you be safe and protected from inener and outer harm, may you be happy, may you be healthy, may you live with ease.",
+        "May all beings be safe and protected from inener and outer harm, may all beings be happy, may all beings be healthy, may all beings live with ease."
+      ],
+      "source": "Dr. Nima Fayazmanesh"
+    },
+    {
+      "title": "Waking Up",
+      "gathas": [
+        "Waking up this morning, I smile.", 
+        "Twenty four brand new hours are before me.", 
+        "I vow to live fully in each moment", 
+        "and to look at all beings with eyes of compassion"
+      ],
+      "source": "https://www.stillwatermpc.org/practice-resources/mindfulness-gathas/"
+    },
+    {
+      "title": "Brushing Teeth",
+      "gathas": [
+        "Brushing my teeth and rinsing my mouth,",
+        "I vow to speak purely and lovingly.",
+        "When my mouth is fragrant with right speech,",
+        "a flower blooms in the garden of my heart."
+      ],
+      "source": "https://www.stillwatermpc.org/practice-resources/mindfulness-gathas/"
+    },
+    {
+      "title": "Washing Your Feet",
+      "gathas": [
+        "Peace and joy in each toe –",
+        "my own peace and joy."
+      ],
+      "source": "https://www.stillwatermpc.org/practice-resources/mindfulness-gathas/"
+    },
+    {
+      "title": "Beginning a Sitting",
+      "gathas": [
+        "Sitting here is like sitting under the Bodhi Tree",
+        "My body is mindfulness itself,",
+        "entirely free from distraction."
+      ],
+      "source": "https://www.stillwatermpc.org/practice-resources/mindfulness-gathas/"
+    },
+    {
+      "title": "Walking Meditation",
+      "gathas": [
+        "The mind can go in a thousand directions.",
+        "But on this beautiful path, I walk in peace.",
+        "With each step, a gentle wind blows.",
+        "With each step, a flower blooms."
+      ],
+      "source": "https://www.stillwatermpc.org/practice-resources/mindfulness-gathas/"
+    },
+    {
+      "title": "Drinking Tea",
+      "gathas": [
+        "This cup of tea in my two hands –",
+        "Mindfulness is held uprightly",
+        "My mind and body dwell",
+        "in the very here and now."
+      ],
+      "source": "https://www.stillwatermpc.org/practice-resources/mindfulness-gathas/"
+    },
+    {
+      "title": "Talking on the Telephone",
+      "gathas": [
+        "Words can travel thousands of miles.",
+        "May my words create mutual understanding and love.",
+        "May they be as beautiful as gems,",
+        "as lovely as flowers."
+      ],
+      "source": "https://www.stillwatermpc.org/practice-resources/mindfulness-gathas/"
+    },
+    {
+      "title": "Driving a Car",
+      "gathas": [
+        "Before starting the car",
+        "I know where I am going.",
+        "The car and I are one.",
+        "If the car goes fast, I go fast.",
+        "If the car goes slowly, I go slowly."
+      ],
+      "source": "https://www.stillwatermpc.org/practice-resources/mindfulness-gathas/"
+    },
+    {
+      "title": "Smiling at Your Anger",
+      "gathas": [
+        "Breathing in, I know that anger makes me ugly.",
+        "Breathing out, I do not want to be contorted by anger.",
+        "Breathing in, I know I must take care of myself.",
+        "Breathing out, I know loving kindness is the only answer."
+      ],
+      "source": "https://www.stillwatermpc.org/practice-resources/mindfulness-gathas/"
+    },
+    {
+      "title": "Starting a Meal: The Five Contemplations",
+      "gathas": [
+        "This food is the gift of the whole universe – the earth the sky, and much hard work.",
+        "May we eat in mindfulness so as to be worthy to receive it.",
+        "May we transform our unskillful states of mind and learn to eat with moderation.",
+        "May we take only foods that nourish us and prevent illness.",
+        "We accept this food to realize the path of understanding and love and joy."
+      ],
+      "source": "https://www.stillwatermpc.org/practice-resources/mindfulness-gathas/"
+    },
+    {
+      "title": "Washing the Dishes",
+      "gathas": [
+        "Washing the dishes",
+        "is like bathing a baby Buddha.",
+        "The profane is the sacred.",
+        "Everyday mind is Buddha’s mind."
+      ],
+      "source": "https://www.stillwatermpc.org/practice-resources/mindfulness-gathas/"
+    },
+    {
+      "title": "Meditating or Walking",
+      "gathas": [
+        "I have arrived.",
+        "I am home.",
+        "In the here,",
+        "In the now.",
+        "I am solid. – I am free.",
+        "In the ultimate",
+        "I dwell."
+      ],
+      "source": "https://www.stillwatermpc.org/practice-resources/mindfulness-gathas/"
+    },
+    {
+      "title": "May You Be Safe, May You Be Happy",
+      "gathas": [
+        "May you be safe,",
+        "may you be happy,",
+        "may your heart be filled with joy.",
+        "May you be free of suffering.",
+        "May you know peace and contentment.",
+        "May you blossom."
+      ],
+      "source": "https://www.stillwatermpc.org/dharma-topics/may-you-be-safe-may-you-be-happy/"
+    },
+    {
+      "title": "Plum Village Chanting Book: The Metta Sutta — The Buddha’s Discourse On Love",
+      "gathas": [
+        "He or she who wants to attain peace should practice being upright, humble, and capable of using loving speech. He or she will know how to live simply and happily, with senses calmed, without being covetous and carried away by the emotions of the majority. Let him or her not do anything that will be disapproved of by the wise ones.",
+        "(And this is what he or she contemplates): May everyone be happy and safe, and may their hearts be filled with joy.",
+        "May all living beings live in Security and in Peace — beings who are frail or strong, tall or short, big or small, visible or not visible, near or far away, already born or yet to be born. May all of them dwell in perfect tranquility.",
+        "Let no one do harm to anyone. Let no one put the life of anyone in danger. Let no one, out of anger or ill will, wish anyone any harm.",
+        "Just as a mother loves and protects her only child at the risk of her own life, we should cultivate Boundless Love to offer to all living beings in the entire cosmos. We should let our boundless love pervade the whole universe, above, below and across. Our love will know no obstacles, our heart will be absolutely free from hatred and enmity. Whether standing or walking, sitting or lying, as long as we are awake, we should maintain this mindfulness of love in our own heart. This is the noblest way of living.",
+        "Free from wrong views, greed and sensual desires, living in beauty and realizing Perfect Understanding, those who practice Boundless Love will certainly transcend Birth and Death"
+      ],
+      "source": "https://www.stillwatermpc.org/dharma-topics/may-you-be-safe-may-you-be-happy/"
+    },
+    {
+      "title": "A Lovingkindness Meditation",
+      "gathas": [
+        "May I/you feel safe.",
+        "May I/you feel content.",
+        "May I/you feel strong.",
+        "May I/you live with ease."
+      ],
+      "source": "https://onbeing.org/blog/sylvia-boorstein-a-lovingkindness-meditation/"
+    },
+    {
+      "title": "A Prayer of Lovingkindness for the World",
+      "gathas": [
+        "May I be safe and protected and free from inner and outer harm.",
+        "May I be happy and contented.",
+        "May I be healthy and whole to whatever degree possible.",
+        "May I experience ease of well-being."
+      ],
+      "source": "https://onbeing.org/blog/sylvia-boorstein-a-lovingkindness-meditation/"
     }
   ]
 }
